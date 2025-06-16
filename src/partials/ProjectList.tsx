@@ -16,11 +16,11 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Pianist"
+        name="Piano"
         description="Since I was 6 years old, I’ve been playing the piano. I’ve won some awards, such as 1st place at the Rising Star Piano Competition and 1st prize with Special Honors at the 2018 Frederic Chopin Piano Competition. As of right now, I am involved in the Bach to Bach Project, which brings classical music to communities all over the world."
         link="https://www.backtobachproject.org/ca-palo-alto/"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/piano.png',
           alt: 'Project Web Design',
         }}
         category={
@@ -33,7 +33,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Chess Master"
+        name="Chess"
         description="In November 2023, I got my National Master title from the US Chess Federation. Since then, I’ve done private coaching, coached chess camps, and published a Chessable course. "
         link="https://www.chessable.com/everyday-endgames/course/213419/"
         img={{ src: '/assets/images/100gmbest.png', alt: 'Project Fire' }}
@@ -61,7 +61,7 @@ const ProjectList = () => (
 
       <Project
         name="Work and Volunteering"
-        description="I really enjoy community service, and have been a volunteer for [Bay Area Chess] from 2022 to 2024. Since then, I’ve been a private chess coach for talented students across the Bay Area. I’ve also done environmental volunteer work for Save the Bay, Canopy, and renovating Paly’s community garden. Currently, I work a part time job at Fleet Feet Menlo Park."
+        description="I really enjoy community service, and have been a volunteer for Bay Area Chess from 2022 to 2024. Since then, I’ve been a private chess coach for talented students across the Bay Area. I’ve also done environmental volunteer work for Save the Bay, Canopy, and renovating Paly’s community garden. Currently, I work a part time job at Fleet Feet Menlo Park."
         link="https://savesfbay.org/"
         img={{ src: '/assets/images/baylands.png', alt: 'Project Maps' }}
         category={
